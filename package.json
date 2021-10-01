@@ -1,0 +1,33 @@
+{
+  "name": "stylingcomponents",
+  "version": "1.0.0",
+  "description": "Webix styling components",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlebMakhankov/webix-styling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GlebMakhankov/webix-styling/issues"
+  },
+  "homepage": "https://github.com/GlebMakhankov/webix-styling#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
+  },
+  "dependencies": {
+    "development": "^0.0.6"
+  }
+}
